@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_frog",
+  "%Name":"obj_wall",
   "eventList":[],
   "managed":true,
-  "name":"obj_frog",
+  "name":"obj_wall",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_frog_forward",
-    "path":"sprites/spr_frog_forward/spr_frog_forward.yy",
+    "name":"spr_wall_placeholder",
+    "path":"sprites/spr_wall_placeholder/spr_wall_placeholder.yy",
   },
   "spriteMaskId":null,
   "visible":true,

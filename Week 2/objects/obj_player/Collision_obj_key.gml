@@ -1,2 +1,3 @@
 has_key = true;
-show_debug_message("touching key");
+audio_play_sound(snd_key, 1, false);
+instance_destroy(other);

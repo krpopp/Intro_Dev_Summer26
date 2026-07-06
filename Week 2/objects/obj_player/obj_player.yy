@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player",
-    "path":"sprites/spr_player/spr_player.yy",
+    "name":"spr_frog_forward",
+    "path":"sprites/spr_frog_forward/spr_frog_forward.yy",
   },
   "spriteMaskId":null,
   "visible":true,
