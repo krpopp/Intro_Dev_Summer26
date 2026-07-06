@@ -1,1 +1,0 @@
-overlap_npc_one = true;
