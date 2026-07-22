@@ -8,10 +8,12 @@ if(frames_since_inst > frames_bt_inst || num_inst < 5){
 		"Instances", obj_collect);
 		
 		var tries = 0;
-		while(collision_rectangle(new_inst.x, new_inst.y, new_inst.x + 32, new_inst.y + 32, obj_collect, false, true) != noone && tries < 3000){
-			new_inst.x = random_range(30, room_width - 30);
-			new_inst.y = random_range(100, room_height - 100);
-			tries += 1;
+		with(new_inst){
+			while(collision_rectangle(x, y, x + 32, y + 32, obj_collect, false, true) != noone && tries < 30000){
+				x = random_range(30, room_width - 30);
+				y = random_range(100, room_height - 100);
+				tries += 1;
+			}
 		}
 		frames_since_inst = 0;
 	}
