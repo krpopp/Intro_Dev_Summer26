@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"phaserDown3",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.496327,
+  "exportDir":"",
+  "name":"phaserDown3",
+  "parent":{
+    "name":"Digital sounds",
+    "path":"folders/Sounds/Digital sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"phaserDown3.ogg",
+  "volume":1.0,
+}

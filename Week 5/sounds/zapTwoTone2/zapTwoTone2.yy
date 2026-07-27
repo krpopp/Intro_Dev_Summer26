@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"zapTwoTone2",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.201633,
+  "exportDir":"",
+  "name":"zapTwoTone2",
+  "parent":{
+    "name":"Digital sounds",
+    "path":"folders/Sounds/Digital sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"zapTwoTone2.ogg",
+  "volume":1.0,
+}

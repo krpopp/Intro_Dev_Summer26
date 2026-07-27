@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"spaceTrash5",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.425669,
+  "exportDir":"",
+  "name":"spaceTrash5",
+  "parent":{
+    "name":"Digital sounds",
+    "path":"folders/Sounds/Digital sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"spaceTrash5.ogg",
+  "volume":1.0,
+}

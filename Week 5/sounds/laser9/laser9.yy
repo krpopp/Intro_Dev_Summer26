@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"laser9",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.009388,
+  "exportDir":"",
+  "name":"laser9",
+  "parent":{
+    "name":"Digital sounds",
+    "path":"folders/Sounds/Digital sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"laser9.ogg",
+  "volume":1.0,
+}

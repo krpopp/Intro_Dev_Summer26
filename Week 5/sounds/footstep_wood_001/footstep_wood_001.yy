@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"footstep_wood_001",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.251565,
+  "exportDir":"",
+  "name":"footstep_wood_001",
+  "parent":{
+    "name":"Impact sounds",
+    "path":"folders/Sounds/Impact sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"footstep_wood_001.ogg",
+  "volume":1.0,
+}
