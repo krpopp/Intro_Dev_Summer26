@@ -81,6 +81,8 @@ while(to_move_y != 0) {
 				//and if we've not already overlapped w/ that burger
 				if(place_meeting(x, y, collidewith) == false) {
 					//track that we've hit something
+					alarm[0] = 1;
+					squash_timer += squash_speed;
 					part_particles_create(part, x, y + 6, dust, 10);
 					colliding = true;
 				}
@@ -119,6 +121,18 @@ if(keyboard_check(ord(right_key))) {
 	//increase our x velocity by the acceleration
 	x_vel += accel;
 }
+
+if(squash_timer != 0) {
+	squash_timer += squash_speed;
+	image_xscale = animcurve_channel_evaluate(x_curve, squash_timer);
+	image_yscale = animcurve_channel_evaluate(y_curve, squash_timer);
+	if(squash_timer > 1){
+		image_xscale = 1;
+		image_yscale = 1;
+		squash_timer = 0;
+	}
+}
+
 
 //handle smooth camera movement
 targetx = x - (camera_get_view_width(view_camera[0]) / 2); //where we want the camera to be  - centered on the player
