@@ -1,3 +1,5 @@
+//hello from my macbook!
+
 num_cards = 12;
 
 deck = ds_list_create();
