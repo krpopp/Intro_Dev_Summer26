@@ -4,6 +4,8 @@ deck = ds_list_create();
 player_hand = ds_list_create();
 discard = ds_list_create();
 
+
+
 //CHANGE LATER! THIS IS BAD!
 dealing = true;
 compare = false;
@@ -11,6 +13,8 @@ clean_up = false;
 
 select_one = noone;
 select_two = noone;
+
+new_card();
 
 for(var i = 0; i < num_cards; i++){
 	var new_card = instance_create_layer(x, y, "Instances", obj_card);
@@ -32,4 +36,8 @@ for(var i = 0; i < ds_list_size(deck); i++){
 function select_card(card_id){
 	if(select_one == noone) select_one = card_id;
 	else if(select_two == noone) select_two = card_id;
+}
+
+function new_card(){
+	var new_card = instance_create_layer(x, y, "Instances", obj_card);
 }
